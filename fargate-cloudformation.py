@@ -1,5 +1,6 @@
 # Template to deploy VPC, ECS Cluster, ALB and then nginx via Fargate
 # By Jason Umiker (jason.umiker@gmail.com)
+# I added a comment - Brody 2019
 
 from troposphere import Template, Parameter, Ref, GetAtt, Join, Output, \
     ecs, ec2, elasticloadbalancingv2, logs, iam
